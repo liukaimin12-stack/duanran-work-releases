@@ -41,10 +41,20 @@ async function main() {
   const marker=`<!-- duanran-manifest-sha256:${digest(manifest)} -->`;
   need(await readFile('out/notes.txt','utf8')===`${release.notes}\n\n${marker}\n`,'Public release notes differ from verified signed notes.');
   const tag=receipt.tag;
-  let existing=findRelease(tag);
+  // Resume the already-created 0.5.2 draft by its verified numeric identity.
+  // A transiently missing list entry must never create another draft.
+  const knownReleaseId=release.version==='0.5.2'?404807254:null;
+  let existing=knownReleaseId?api(`repos/${REPOSITORY}/releases/${knownReleaseId}`):findRelease(tag);
   if (!existing) {
     gh(['release','create',tag,'--repo',REPOSITORY,'--draft','--target',process.env.GITHUB_SHA,'--title',`端然work ${tag}（公开测试）`,'--notes-file','out/notes.txt']);
-    existing=findRelease(tag);
+    // GitHub release listing can lag behind a successful create response.
+    // Poll only the read endpoint; never create a second draft on a missing read.
+    const visibleBy=Date.now()+20_000;
+    do {
+      existing=findRelease(tag);
+      if (existing) break;
+      await new Promise(resolve=>setTimeout(resolve,1_000));
+    } while (Date.now()<visibleBy);
   }
   need(existing && Number.isSafeInteger(existing.id) && existing.id>0 && existing.tag_name===tag && existing.prerelease===false,'Unexpected existing release identity.');
   need(typeof existing.body==='string' && existing.body.trimEnd().endsWith(marker),'Existing draft/release is bound to a different signed manifest.');
