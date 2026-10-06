@@ -1,148 +1,147 @@
 {
   "format": "duanran-two-release-request-1",
-  "version": "0.5.4",
-  "manifestSha256": "e325876a66e1169d757c095d12769765655d960517a4a665e440fab2d7456b55",
+  "version": "0.5.5",
+  "manifestSha256": "a06ac04f4e103a1e8a667989b03948aa6bcfafda5d6842e920520f39ebc7daf4",
   "chunks": [
     {
       "file": "part-000.bin",
       "size": 4194304,
-      "sha256": "d14006caf6ea8551296dee20b5613c87ee9394bc9419425150bfedc16663dce4"
+      "sha256": "aed9bd5b2e9c02dfe497547ef2cd0d5e227f4118effd324ae861e241800659e7"
     },
     {
       "file": "part-001.bin",
       "size": 4194304,
-      "sha256": "ed58926e7c3a48fb71c0fea3bf7b764eea12021c3eef193c1764b549461deb40"
+      "sha256": "3119bdde623fff19d41211945fbf49da8f43f934534a08c48201a829f031def5"
     },
     {
       "file": "part-002.bin",
       "size": 4194304,
-      "sha256": "9cb3408a18ad109b5c51957da26259d50a696e7fe052778bc91e34eb940671cc"
+      "sha256": "79146340681fe31006759e69f741ffb14e9ba5d61690cf1911979560c6829c17"
     },
     {
       "file": "part-003.bin",
       "size": 4194304,
-      "sha256": "b7b78d799267aac04142c798fd3768b307b0c1407f0c094ab29822563b337af0"
+      "sha256": "384c6dcabc1578288cf00b47ac1e9030461e866fc18853d251b8608f78732c29"
     },
     {
       "file": "part-004.bin",
       "size": 4194304,
-      "sha256": "61a1bf9d376f4ec435474365f72014fc0cb002b5d645a3874db7b4dbb230ed4f"
+      "sha256": "f77b159139c44e4e6462f42736511a70db868feba5bdf1c935b6f691b0cde5e7"
     },
     {
       "file": "part-005.bin",
       "size": 4194304,
-      "sha256": "e72588d7d2004449d735f67c5d4e2b6deeb4b6349ec1a31ad3e0329714ce16d5"
+      "sha256": "5d7cb44feb5091329a6531a23d92cde0e77bcb8bf3f004ef84a1ae7f84e52012"
     },
     {
       "file": "part-006.bin",
       "size": 4194304,
-      "sha256": "346e58129a88dcb7e0d85486cc5cd93f1dac34ce14abcc02126f46ade958c7c7"
+      "sha256": "37e2cc3806053c7fec33639a935bb6982a7ef279007e8930f4e2b1042ab6b42e"
     },
     {
       "file": "part-007.bin",
       "size": 4194304,
-      "sha256": "e1c8eb890b9145aac9a9467c5f816087a913a8c1e893082ba93c24a0c32834a3"
+      "sha256": "6046a6a075e4967f43fb73db26b97da71956036b8874c6d43cfafa542c1ddb1a"
     },
     {
       "file": "part-008.bin",
       "size": 4194304,
-      "sha256": "bf1c806051a1c20b61ee30acaaded74ffe02d3f805973f6f5c1714d8081fe2f6"
+      "sha256": "8a4965f78e736234d7c5096cdb87e5525ca11fcaa3c00611b189d23956056d39"
     },
     {
       "file": "part-009.bin",
       "size": 4194304,
-      "sha256": "3dd169bcad1cc2f2ba55d0ca8ea84fb518cb99b14b1b38b92d4901b078120e58"
+      "sha256": "2ea75efe28b0a86d01579f9e4342df7572853839f6e906059b66ae3ee84a650d"
     },
     {
       "file": "part-010.bin",
       "size": 4194304,
-      "sha256": "4595b5a331b13eef7d4d227d669ff8d59c4f818d94a4943d551f16c42cfe46e0"
+      "sha256": "37f80351cebe277a7cb5eb62071a566e8732c96d37cf41ff3de3e11063f87ee5"
     },
     {
       "file": "part-011.bin",
       "size": 4194304,
-      "sha256": "e0d6e7d1d8592730cf43d0f156a5df9c436d17af24e993f5887abdba6e67bab2"
+      "sha256": "2ceb78f2c7ba967df75740ad0b93867994c73f6f354ca510ae0bdf18b8eaf95f"
     },
     {
       "file": "part-012.bin",
       "size": 4194304,
-      "sha256": "4763d584bdd835d595051f7aba4a056174bf9a6f65026eb50125aac94c49a8b3"
+      "sha256": "cf3d60a09f536128e5690427262e986ebdec44da3561b9c1007a362e6824190c"
     },
     {
       "file": "part-013.bin",
       "size": 4194304,
-      "sha256": "bc8dde4e5d17e5a09f817c029a953bec862c72b28463ba86ed6eec69ed3c9213"
+      "sha256": "7b9aa2805233b54a11029def31a51ebbb52a70d85e7439d5987206b14f59db0f"
     },
     {
       "file": "part-014.bin",
       "size": 4194304,
-      "sha256": "ad80c83d460bf111b293ce8ad34f01d0e953119e8c72057db1687397431ad6f7"
+      "sha256": "0ce5e363532346c20fb1ffb304fa28f95968b423fb939f11cfeabcff87546786"
     },
     {
       "file": "part-015.bin",
       "size": 4194304,
-      "sha256": "d3ddf88f82b2d1677916c26736d8e14a752880c0cf1f3422359778649b54ac95"
+      "sha256": "8c37a7932064bc60c5c5200e7f418c31b22da9b4d047d4dfeb9d1f6f231127c9"
     },
     {
       "file": "part-016.bin",
       "size": 4194304,
-      "sha256": "61ccb1ce887538d9bb26433b0406c8996e82e741894d19854ed91d8e6b398efe"
+      "sha256": "366c3d233bbf0a2c75dbb59749ff475d446878c5b4eb08b7656b8388d6e2f997"
     },
     {
       "file": "part-017.bin",
       "size": 4194304,
-      "sha256": "f518c4d634f0fe5530ab2039ee4aa70245d06a15fa50b73b378edf46984d99db"
+      "sha256": "360979bcc7db3abc291a1724404b29689ba2817fca7ce22b759cb4d987011102"
     },
     {
       "file": "part-018.bin",
       "size": 4194304,
-      "sha256": "5f495835a3ffb6d58e7fd066cbe9f6558055e7b6326cfd695f0cdfe998c9e899"
+      "sha256": "bedb2ef205ff2e2f8bb6d448ec0c35a07de3c88049d15898f577e437ff3e7c56"
     },
     {
       "file": "part-019.bin",
       "size": 4194304,
-      "sha256": "d7908efb11ac89ef104cfd9ce962d0b4042ea6de5062bc28e09828ee628e4c3e"
+      "sha256": "65f7c5a8cd32bbba1b2a948b212a0e2aaf175a017fb88a4771083a849f4c8fc6"
     },
     {
       "file": "part-020.bin",
       "size": 4194304,
-      "sha256": "15f7ac197d7fac87145add5ef4294a86241cd73502e6be47e476a5adcce08c7a"
+      "sha256": "7e76c99f5d2cc3f80a6ce4ed6e3342ad5d3bcdf8b7495fb0d9c1afa5913e6bf3"
     },
     {
       "file": "part-021.bin",
       "size": 4194304,
-      "sha256": "21ab0f7fbaa9c4255c76d69374b28c21d8215c4f3644ed6a0e221996c1c9e678"
+      "sha256": "7711e68caa1d8037b1870296c4bff3d50ee74667ef07da2e9da5860eb221d5cc"
     },
     {
       "file": "part-022.bin",
       "size": 4194304,
-      "sha256": "ab6340bdeedcf4789c337c3215d5fdb477b34ac2e6d18105659d650e91f9bebd"
+      "sha256": "fd02f1f8440fff5133edaa621211fa26f0871486d40d600ddda59e9a33bc528a"
     },
     {
       "file": "part-023.bin",
       "size": 4194304,
-      "sha256": "ddae2a5cbfb0fec2285e6277b867ea98227eedd398a7b3f0101f203a47d63e20"
+      "sha256": "09e4c1786e804e7ad9edb2bf086da454a4123e2ea93d3efe951d4ca296ca18e9"
     },
     {
       "file": "part-024.bin",
       "size": 4194304,
-      "sha256": "1d8109e6b7e879e7782aa41cbad782185582cc31db9eb45764244c2833269f50"
+      "sha256": "563f45b3ff8f6f966e80a152982791cc89696d00612bae2ed8428e68671af4b0"
     },
     {
       "file": "part-025.bin",
       "size": 4194304,
-      "sha256": "cd9f4345de2293603487854f8b7dd635a6fb13df62d612e1c592b33cbd37eb97"
+      "sha256": "93371cc0c0adaad24f54f7076ca4355edf7ffc1aa78e65bd9c04f443823d2cc0"
     },
     {
       "file": "part-026.bin",
       "size": 4194304,
-      "sha256": "0cb6005dd195a34873bf08f8f4df745d7d70dcdfdaf40c8135c2cd2d4489f8c9"
+      "sha256": "47e1e7b09bc9d2bfc95a181ec1580f8c640c8547c02bdae876038edeb9e2a150"
     },
     {
       "file": "part-027.bin",
-      "size": 2240625,
-      "sha256": "347252ae8ea62ffc821f4a90870b0f843cb232a8208a4aa8f4cb887204b82eb6"
+      "size": 2240310,
+      "sha256": "4625b6d9993949d4f0e9f198bb9148198ed0fe85600d705c2c9cc8cbafb2a25b"
     }
   ]
 }
-

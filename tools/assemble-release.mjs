@@ -8,7 +8,7 @@ export const PUBLISHER = Object.freeze({
   keyId: 'duanran-ed25519-4c57f913e6225d3912b13fdf',
   publicKeyPem: '-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEASk6r4A2KGohgG1GTAkW15i4vsSbYOjNAsMFkAfC2S/s=\n-----END PUBLIC KEY-----\n',
 });
-const VERSIONS = new Set(['0.5.2', '0.5.3', '0.5.4']);
+const VERSIONS = new Set(['0.5.2', '0.5.3', '0.5.4', '0.5.5']);
 const MAX_INSTALLER = 200 * 1024 * 1024;
 const sha256 = bytes => createHash('sha256').update(bytes).digest('hex');
 function requireOk(condition, message) { if (!condition) throw new Error(message); }

@@ -1,0 +1,5 @@
+{
+  "keyId": "duanran-ed25519-4c57f913e6225d3912b13fdf",
+  "payload": "{\"appId\":\"local.cc.desktop\",\"version\":\"0.5.5\",\"platform\":\"win32-x64\",\"file\":\"DuanranWork-0.5.5-public-test-x64.exe\",\"sha256\":\"55f371a8f4a2d7ff0ccfa4a9696daba6d337bb469acfe6b84df0e323789a90b4\",\"size\":115486518,\"dataSchema\":2,\"readableDataSchemas\":[1,2],\"notes\":\"端然work 0.5.5 · 更新清单 HTTP 400 修正版\\n\\n修正中文应用名称进入默认 User-Agent 后，GitHub 下载 CDN 拒绝更新请求的问题。更新请求现在使用固定 ASCII 标识，应用显示名称仍为端然work。\\n\\n真实 Windows 对照已复现：同一网络和会话中，默认中文请求标识在下载 CDN 返回 HTTP 400；仅更换为 ASCII 标识后返回 HTTP 200，并通过原发布者签名验证。\\n\\n保留系统代理/PAC兼容、固定仓库和版本附件边界、HTTPS证书验证、发布者签名、安装包大小/SHA-256及数据兼容性检查。本次不增加模型或工作流功能。\\n\\n旧版若因 HTTP 400 无法读取更新清单，请先手动安装本版。测试版安装前请备份重要资料并处理未保存内容和在途任务。真实网络仍受本机配置和 GitHub 可达性影响；未声明所有网络环境均已实测或具备 Windows 发布者证书信誉。\"}",
+  "signature": "FhBG8KHCR/kzzEUNvx5Kbo+CCpWivdgbeD/32bpCD++NTNfJMsSdA/vMmX/fWOpfiSv087bSWpfuA8uXIodwCw=="
+}
