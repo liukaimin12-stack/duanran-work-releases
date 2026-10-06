@@ -1,0 +1,35 @@
+name: Publish two signed desktop test versions
+on:
+  push:
+    branches: [main]
+    paths: [publish-request.json]
+permissions: {}
+concurrency:
+  group: duanran-public-test-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.repository == 'liukaimin12-stack/duanran-work-releases' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - name: Check out only this public release repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+          fetch-depth: 1
+      - name: Use Node 24
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Verify signature and reassemble exact installer
+        run: node tools/assemble-release.mjs
+      - name: Publish only the three verified assets
+        env:
+          GH_REPO: liukaimin12-stack/duanran-work-releases
+          GH_TOKEN: ${{ github.token }}
+        run: node tools/publish-release.mjs
