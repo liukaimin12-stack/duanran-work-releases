@@ -8,7 +8,7 @@ export const PUBLISHER = Object.freeze({
   keyId: 'duanran-ed25519-4c57f913e6225d3912b13fdf',
   publicKeyPem: '-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEASk6r4A2KGohgG1GTAkW15i4vsSbYOjNAsMFkAfC2S/s=\n-----END PUBLIC KEY-----\n',
 });
-const VERSIONS = new Set(['0.5.2', '0.5.3']);
+const VERSIONS = new Set(['0.5.2', '0.5.3', '0.5.4']);
 const MAX_INSTALLER = 200 * 1024 * 1024;
 const sha256 = bytes => createHash('sha256').update(bytes).digest('hex');
 function requireOk(condition, message) { if (!condition) throw new Error(message); }
@@ -31,7 +31,7 @@ export function verifyEnvelope(bytes, publisher = PUBLISHER) {
   requireOk(key.asymmetricKeyType === 'ed25519' && verify(null, Buffer.from(envelope.payload), key, Buffer.from(envelope.signature,'base64')), 'Publisher signature failed.');
   const p = JSON.parse(envelope.payload);
   exactKeys(p, ['appId','version','platform','file','sha256','size','dataSchema','readableDataSchemas','notes']);
-  requireOk(p.appId === 'local.cc.desktop' && p.platform === 'win32-x64' && VERSIONS.has(p.version), 'Release identity/version outside this two-release test.');
+  requireOk(p.appId === 'local.cc.desktop' && p.platform === 'win32-x64' && VERSIONS.has(p.version), 'Release identity/version outside this approved test release set.');
   requireOk(p.file === `DuanranWork-${p.version}-public-test-x64.exe`, 'Unexpected installer name.');
   requireOk(/^[a-f0-9]{64}$/.test(p.sha256) && Number.isSafeInteger(p.size) && p.size > 0 && p.size <= MAX_INSTALLER, 'Invalid installer digest/size.');
   requireOk(p.dataSchema === 2 && JSON.stringify(p.readableDataSchemas) === '[1,2]', 'Unexpected test data schema.');

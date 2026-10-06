@@ -1,0 +1,5 @@
+{
+  "keyId": "duanran-ed25519-4c57f913e6225d3912b13fdf",
+  "payload": "{\"appId\":\"local.cc.desktop\",\"version\":\"0.5.4\",\"platform\":\"win32-x64\",\"file\":\"DuanranWork-0.5.4-public-test-x64.exe\",\"sha256\":\"e647d5a7141cd4d7b2d5011c56bbeef961e59c726b4909fa5c027dc53bead69e\",\"size\":115486833,\"dataSchema\":2,\"readableDataSchemas\":[1,2],\"notes\":\"端然work 0.5.4 · 更新网络兼容修正版\\n\\n修正固定 GitHub 更新源与系统代理、PAC、隧道和 Fake-IP 网络环境的连接兼容问题。更新连接使用应用原生网络栈读取系统网络配置，不修改电脑的代理或 DNS 设置。\\n\\n保留固定发布仓库和版本附件边界、HTTPS 证书验证、发布者签名、安装包大小与 SHA-256 校验，以及数据兼容性和安装前协调。模型服务、工作流执行、资料库与个人 API Key 配置方式不变。\\n\\n0.5.2/0.5.3 若在检查更新时提示“更新域名解析到了非公开地址”，该旧版本可能无法自行取得修复包；请先手动安装本版。实际连接仍取决于所在网络、代理配置及 GitHub 可达性。\\n\\n本版为公开测试发行。本地密码锁不限制安装资格；安装前请备份重要资料，并处理未保存内容与在途任务。未声明 Windows 发布者证书信誉或全部网络环境均已实测。\"}",
+  "signature": "oT4wT0y4bBYFKYVycFTU1ONcWDL3iVKdwDJ5c4oMkMv6NnkAU8XELXSdsUrqmWJH3O43eg6eydE7XVKQQnB+BA=="
+}

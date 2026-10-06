@@ -1,5 +1,0 @@
-{
-  "keyId": "duanran-ed25519-4c57f913e6225d3912b13fdf",
-  "payload": "{\"appId\":\"local.cc.desktop\",\"version\":\"0.5.2\",\"platform\":\"win32-x64\",\"file\":\"DuanranWork-0.5.2-public-test-x64.exe\",\"sha256\":\"0af3e35c26f76af201fbb96d657adff6dbf26690f8f9bd48a53fd80948419b83\",\"size\":115484204,\"dataSchema\":2,\"readableDataSchemas\":[1,2],\"notes\":\"端然work 0.5.2 · 公开测试版\\n\\n内置 Grsai 图片节点，提供个人 API Key 接入、按模型展开的参数，以及工作流图片输入和输出。保持原图引用、任务身份和结果留存；发生不确定结果时可显式恢复查询，不自动重新提交生成。\\n\\n本版内置本次测试专用发布者公钥和 GitHub 更新源。此前未配置更新信任的 0.5.0/0.5.1 需要先手动安装本版；后续更高版本仍须通过签名、大小、SHA-256 和数据兼容性检查。\\n\\n保留历史 CC 配置、资料库及应用身份。测试前请备份重要资料。有未保存内容或在途任务时，请先处理后再安装更新。\\n\\n模型服务的 API Key 由使用者在应用内自行配置；报价估计不代表实际账单或供应商硬预算上限。本地密码锁不限制谁可以下载安装。此版本为测试发行，未声明 Windows 发布者证书信誉或所有供应商真实生成成功。\"}",
-  "signature": "blhmeu3i4zkL5LXEOn4nz63lu6WoGZ3odKfs0tFgfregmj448qKglSnqJWGYvd2DYElLDoh7qbHgTBYnJbf7Bg=="
-}

@@ -1,4 +1,4 @@
-name: Publish two signed desktop test versions
+name: Publish signed desktop test versions
 on:
   push:
     branches: [main]

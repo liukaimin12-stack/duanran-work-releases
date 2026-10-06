@@ -1,5 +1,0 @@
-{
-  "keyId": "duanran-ed25519-4c57f913e6225d3912b13fdf",
-  "payload": "{\"appId\":\"local.cc.desktop\",\"version\":\"0.5.3\",\"platform\":\"win32-x64\",\"file\":\"DuanranWork-0.5.3-public-test-x64.exe\",\"sha256\":\"33fc4f13e876ffd582a2dcd8c69625636939a98cfe0771edb3a3e35231b8fca6\",\"size\":116753945,\"dataSchema\":2,\"readableDataSchemas\":[1,2],\"notes\":\"端然work 0.5.3 · 在线更新验收版\\n\\n本版本用于验证 0.5.2 经真实 GitHub 发布渠道发现、下载、校验、安装并重启至更高版本的完整流程。保留 0.5.2 的 Grsai 图片功能及现有应用、配置、资料库和任务身份，不增加模型功能。\\n\\n安装前请备份重要资料，并处理未保存内容与在途任务。安装器和清单使用同一获准测试发布身份；客户端仍须核验签名、大小、SHA-256 和数据兼容性。模型服务密钥由使用者自行配置，不包含在安装包中。\\n\\n此版本为公开测试发行，本地密码锁不限制安装资格；未声明 Windows 发布者证书信誉或所有供应商真实生成成功。\"}",
-  "signature": "9pibCanSe1XYX0AaNanWbLWU4HaA4+Ai5cRb5pJMRTCouEzyhPcHRdS8A7lHfn+KKIFDz4bS/5rFwgFbFTMsDA=="
-}
