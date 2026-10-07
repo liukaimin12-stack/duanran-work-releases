@@ -1,0 +1,22 @@
+{
+  "format": "duanran-github-test-release-1",
+  "repository": {
+    "owner": "liukaimin12-stack",
+    "repository": "duanran-work-releases",
+    "repositoryId": "1407176410"
+  },
+  "release": {
+    "appId": "local.cc.desktop",
+    "version": "0.6.1",
+    "platform": "win32-x64",
+    "file": "DuanranWork-0.6.1-public-test-x64.exe",
+    "sha256": "3a962daac06aec22ea65b0dc59a50c9ab838676969887990730ed015c7491ecd",
+    "size": 115523170,
+    "dataSchema": 2,
+    "readableDataSchemas": [
+      1,
+      2
+    ],
+    "notes": "端然work 0.6.1 公开过渡测试版\n\n调整测试版本更新流程。旧版本请下载本页完整安装包，关闭应用后手动覆盖安装一次；保留原有安装身份和工作资料路径。\n\n本测试版从指定 GitHub 发行仓库通过 HTTPS 获取更新，并校验文件大小与 SHA256。此通道没有独立发布者签名，保护弱于签名通道，仅用于公开测试。旧版本签名更新清单不用于本版。\n\n安装包公开，任何人可下载安装；源码保持私有。真实模型 API Key 由使用者自行配置。"
+  }
+}
