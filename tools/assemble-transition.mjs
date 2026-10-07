@@ -4,7 +4,7 @@ import { join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 
 export const REPOSITORY = 'liukaimin12-stack/duanran-work-releases';
-const VERSIONS = new Set(['0.6.1']);
+const VERSIONS = new Set(['0.6.1', '0.6.2']);
 const MAX_INSTALLER = 200 * 1024 * 1024;
 const sha256 = bytes => createHash('sha256').update(bytes).digest('hex');
 function requireOk(condition, message) { if (!condition) throw new Error(message); }

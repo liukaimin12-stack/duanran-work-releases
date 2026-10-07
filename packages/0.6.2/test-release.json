@@ -1,0 +1,22 @@
+{
+  "format": "duanran-github-test-release-1",
+  "repository": {
+    "owner": "liukaimin12-stack",
+    "repository": "duanran-work-releases",
+    "repositoryId": "1407176410"
+  },
+  "release": {
+    "appId": "local.cc.desktop",
+    "version": "0.6.2",
+    "platform": "win32-x64",
+    "file": "DuanranWork-0.6.2-public-test-x64.exe",
+    "sha256": "340ccf0cce47d16af832bfe9da42d6ddeb10615eb8db41a622789f66fbe7c915",
+    "size": 115522802,
+    "dataSchema": 2,
+    "readableDataSchemas": [
+      1,
+      2
+    ],
+    "notes": "端然work 0.6.2 公开测试版\n\n本版仅递增测试版本号，用于验证 0.6.1 客户端的在线检查、下载校验与重启更新流程，不新增功能。\n\n已安装 0.6.1 的用户可在设置中的应用更新页检查新版；更早版本请先手动安装 0.6.1。更新前请保存未完成工作并备份重要资料。\n\n本测试通道从指定 GitHub 发行仓库通过 HTTPS 获取更新，校验文件大小和 SHA256；没有独立发布者签名，仅用于公开测试。安装包公开，源码保持私有。"
+  }
+}
