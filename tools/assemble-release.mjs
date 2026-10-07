@@ -8,7 +8,7 @@ export const PUBLISHER = Object.freeze({
   keyId: 'duanran-ed25519-4c57f913e6225d3912b13fdf',
   publicKeyPem: '-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEASk6r4A2KGohgG1GTAkW15i4vsSbYOjNAsMFkAfC2S/s=\n-----END PUBLIC KEY-----\n',
 });
-const VERSIONS = new Set(['0.5.2', '0.5.3', '0.5.4', '0.5.5']);
+const VERSIONS = new Set(['0.5.2', '0.5.3', '0.5.4', '0.5.5', '0.6.0']);
 const MAX_INSTALLER = 200 * 1024 * 1024;
 const sha256 = bytes => createHash('sha256').update(bytes).digest('hex');
 function requireOk(condition, message) { if (!condition) throw new Error(message); }
@@ -88,3 +88,4 @@ export async function assemble(root = process.cwd()) {
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
   assemble().then(r=>console.log(JSON.stringify(r,null,2))).catch(error=>{console.error(`Assembly rejected: ${error.message}`);process.exitCode=1;});
 }
+
