@@ -1,0 +1,15 @@
+version: 0.2.1-rc.2.20261027.1
+files:
+  - url: https://github.com/liukaimin12-stack/duanran-work-releases/releases/download/work-dsh-0.2.1-rc.2.20261027.1/DuanranWork-DSH-0.2.1-rc.2.20261027.1-win-x64-unsigned.exe
+    sha512: vrN1uHCN9HQQtuTGd9YMrabhdAm8VqcFdn3eNdOUNLHVQ2KcUf6EjYKybF567ymsSW55pqRqNEDswPmtZCn1xQ==
+    size: 291522791
+path: https://github.com/liukaimin12-stack/duanran-work-releases/releases/download/work-dsh-0.2.1-rc.2.20261027.1/DuanranWork-DSH-0.2.1-rc.2.20261027.1-win-x64-unsigned.exe
+sha512: vrN1uHCN9HQQtuTGd9YMrabhdAm8VqcFdn3eNdOUNLHVQ2KcUf6EjYKybF567ymsSW55pqRqNEDswPmtZCn1xQ==
+releaseDate: '2026-10-27T12:15:36.739Z'
+workDsh:
+  schemaVersion: 1
+  appId: local.duanran.work.dsh
+  platform: win32
+  arch: x64
+  trust: unsigned-test
+  artifactKind: windows-installer

@@ -1,2 +1,0 @@
-0af3e35c26f76af201fbb96d657adff6dbf26690f8f9bd48a53fd80948419b83  DuanranWork-0.5.2-public-test-x64.exe
-f0df304ca86fbe1a34ef0f570600602ef6cb2067b1dc181ad75463dd19ec6c42  release.json
