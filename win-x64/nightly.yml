@@ -1,11 +1,11 @@
-version: 0.2.1-rc.2.20261028.6
+version: 0.2.1-rc.2.20261028.8
 files:
-  - url: https://github.com/liukaimin12-stack/duanran-work-releases/releases/download/work-dsh-0.2.1-rc.2.20261028.6/DuanranWork-DSH-0.2.1-rc.2.20261028.6-win-x64-unsigned.exe
-    sha512: HHMi6tgHhpkRdmrsEPXiIihlHRrRl2swm4S9DDD328c0GIBVMXq/g3CtLWFSLngDG20znZ126T1QE6jB8tod2g==
-    size: 291602416
-path: https://github.com/liukaimin12-stack/duanran-work-releases/releases/download/work-dsh-0.2.1-rc.2.20261028.6/DuanranWork-DSH-0.2.1-rc.2.20261028.6-win-x64-unsigned.exe
-sha512: HHMi6tgHhpkRdmrsEPXiIihlHRrRl2swm4S9DDD328c0GIBVMXq/g3CtLWFSLngDG20znZ126T1QE6jB8tod2g==
-releaseDate: '2026-10-28T08:53:49.805Z'
+  - url: https://github.com/liukaimin12-stack/duanran-work-releases/releases/download/work-dsh-0.2.1-rc.2.20261028.8/DuanranWork-DSH-0.2.1-rc.2.20261028.8-win-x64-unsigned.exe
+    sha512: JvP28mivi4h5gsIS4gL8stuJMNQZwYlhRna48KHwAgCcmsTfgIgPueVBHfqkpbv5eEScVoNZ9CRULlXgkUiUmA==
+    size: 291605301
+path: https://github.com/liukaimin12-stack/duanran-work-releases/releases/download/work-dsh-0.2.1-rc.2.20261028.8/DuanranWork-DSH-0.2.1-rc.2.20261028.8-win-x64-unsigned.exe
+sha512: JvP28mivi4h5gsIS4gL8stuJMNQZwYlhRna48KHwAgCcmsTfgIgPueVBHfqkpbv5eEScVoNZ9CRULlXgkUiUmA==
+releaseDate: '2026-10-29T01:16:27.247Z'
 workDsh:
   schemaVersion: 1
   appId: local.duanran.work.dsh
